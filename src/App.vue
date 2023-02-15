@@ -39,19 +39,19 @@
 
     <v-main>
       <index></index><br>
-      <Buscador></Buscador>
-    </v-main>
+      <Carrusel></Carrusel> 
+         </v-main>
   </v-app>
 </template>
 
 <script>
 import index from './components/index'
-import Buscador from './components/Buscador'
+import Carrusel from './components/Carrusel'
 export default {
   name: 'App',
 
   components: {
-    index, Buscador
+    index, Carrusel
   },
 
   data: () => ({
