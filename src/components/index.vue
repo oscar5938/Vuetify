@@ -4,7 +4,7 @@
       <v-switch
         v-model="$vuetify.theme.dark"
         inset
-        label="Modo blanquista"
+        label="Modo oscuro"
         persistent-hint
       ></v-switch>
     </v-toolbar>
